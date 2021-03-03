@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./src/pics/APOD.png" alt="Logo" width="600" height="300" style="border-style: solid; border-width: .3em; border-color: red;">
+    <img src="./APOD.png" alt="Logo" width="600" height="300" style="border-style: solid; border-width: .3em; border-color: red;">
   </a>
 
   <h3 align="center">NASA APOD Application</h3>
