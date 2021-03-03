@@ -127,9 +127,9 @@ Distributed under [the MIT License](https://mit-license.org/).
 <!-- CONTACT -->
 ## Contact
 
-Justin Lawhorne - [justin.lawhorne7@gmail.com](https://gmail.com) - email
+Justin Lawhorne -[ justin.lawhorne7@gmail.com](mailto:justin.lawhorne7@gmail.com?subject=[GitHub]%20Contact%20Han%20Request)
 
-Project Link: [https://uavsystems434.github.io/APOD-app/](https://uavsystems434.github.io/APOD-app/)
+Project Link: [https://uavsystems434.github.io/APOD-app/][](https://uavsystems434.github.io/APOD-app/)
 
 
 
