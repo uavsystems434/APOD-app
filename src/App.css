@@ -1,38 +1,370 @@
-.App {
+:root {
+  --ff-primary: 'Emblema One', cursive;
+  --ff-secondary: 'Times New Roman', 'Lobster';
+}
+
+
+html {
+  height: 1500px;
+  text-align: center; 
+  
+}
+
+body {
+  background-image: url('pics/background.jpg');   
+  margin: 0 auto;
+  position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   
+}
+
+
+
+.back-button {
+  background: red;
+  margin: 0 auto;
+  position: relative;
+  width: 10%;
+  font-size: 1.2rem;
+  text-align: center;
+  top: 1rem;
+
+  
+}
+.rocket-cont {
+
+  background: url('pics/Soyuz.svg');
+  background-repeat: no-repeat;
+  margin: 0 auto;
+background-position-x: center;
+transform: rotate(270deg);
+width: 100%;
+height: 15rem;
+  position: relative;
+padding: -500px;
+  display: inline-block;
+
+}
+.rocket-bar {
+  margin: 0 auto;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:hsl(0, 100%, 50%);
+  margin: 0 auto;
+  transform: rotate(90deg);
+  display: inline-block;
+  position: relative;
+  top: 18rem;
+
+}
+
+.rocket-bar:hover  {
+animation: 2.55s fire infinite;
+animation-direction: normal;
+animation-iteration-count: infinite;
+animation-play-state: running;
+}
+
+@keyframes fire {
+  0% { color: hsl(236, 98%, 48%); }
+  50% {  color:hsl(0, 100%, 50%);}
+100% {  color:hsl(236, 98%, 48%);}
+}
+
+.info-header {
+  text-decoration: underline;
+}
+ .const-cont {
+   font-family: var(--ff-secondary);
+ }
+
+a {
+  color: red;
+}
+.url-img {
+ box-shadow: #f4f4f4;
+  width: 50%;
+    background:black;
+    border:.4rem solid rgba(202, 189, 189, 0.678);
+    border-radius: .2rem;
+    box-shadow: black 2rem 2rem;
+  display:inline-block;
+  margin:10px;
+  box-shadow:0 0 50px 25px black;
+}
+
+.url-title {
+  margin: 0 auto;
+  font-size: 3.4rem;
+  position: relative;
+  font-family: var(--ff-primary);
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.title-cont {
+    filter: transparent;
+  background: black;
+ border-radius: .75rem;
+    border-style: outset;
+    margin: 0 auto;
+    position: relative;
+    border-color: red;
+  width: 50%;
+}
+.copyright {
+    filter: transparent;
+  background: black;
+top: 2rem;
+    border-style: outset;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    border-color: rgb(255, 255, 255);
+    color: red;
+  border-radius: .75rem;
+  width: 50%;
+   font-family: var(--ff-secondary);
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  bottom: 10rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 25px 10px #9294f866;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+
+.main-text {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  border-radius: .75rem;
+  padding: 2rem;
+ border-style: outset;
+ border-color: red;
+ top: 4rem;
+  font-family: var(--ff-secondary);
+}
+
+@media (min-width:2500px) {
+  html {
+    height: 2200px;
+  }
+  .info-header {
+    font-size:3.5rem;
+  }
+.main-text {
+  margin: 0 auto;
+  position: relative;
+  font-size: 1.5rem;
+width: 80%;
+padding-top: 2em;
+padding-bottom: 5em;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width:2000px) {
+  html {
+    height: 2500px;
+   
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .info-header {
+    font-size: 3.5rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .const-sub {
+    font-size: 2.15rem;
   }
+.main-text {
+  margin: 0 auto;
+  position: relative;
+  font-size: 2.25rem;
+  line-height: 1.15rem;
+  height: 100%;
+width: 90%;
+line-height: 3rem;
+
+  text-align: center;
 }
+
+.url-img {
+  margin: 0 auto;
+  position: relative;
+  width: 94%;
+}
+.title-cont {
+    filter: transparent;
+  background: black;
+  font-size: 3rem;
+    border-style: outset;
+    margin: 0 auto;
+    position: relative;
+    border-color: red;
+    top: 1rem;
+ padding: 1.2rem;
+  width: 80%;
+}
+.copyright {
+  font-size: 2rem;
+}
+}
+
+@media (max-width:500px) {
+  html {
+    height: 1900px;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: block;
+   
+  }
+  .rocket-cont {
+
+  background: url('pics/Soyuz.svg');
+  background-repeat: no-repeat;
+  margin: 0 auto;
+background-position-x: center;
+transform: rotate(270deg);
+width: 10%;
+height: 15rem;
+  position: relative;
+
+  display: inline-block;
+
+}
+.rocket-bar {
+  margin: 0 auto;
+  font-size: 1.15rem;
+  text-decoration: none;
+  color:hsl(0, 100%, 50%);
+  margin: 0 auto;
+  transform: rotate(90deg);
+  display: inline-block;
+  position: relative;
+
+  width: 100%;
+  top: 12rem;
+
+}
+
+  body {
+    background-size: auto;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    align-items: center;
+ 
+  }
+  .copyright {
+    filter: transparent;
+  background: black;
+top: 6rem;
+    border-style: outset;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    border-color: rgb(255, 255, 255);
+    color: red;
+ 
+  width: 50%;
+}
+  .media-cont {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+  .url-img {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+  }
+  .title-cont {
+    margin: 0 auto;
+    position: relative;
+    font-size: 3.4rem;
+  }
+  .copyright {
+  font-size: 1.2rem;
+  top: 1rem;
+  
+}
+
+  .const-cont {
+    margin: 0 auto;
+  
+    position: relative;
+    text-align: center;
+    width: 100%;
+    left: 10%;
+  }
+  .info-header {
+    margin: 0 auto;
+    position: relative;
+    font-size: 2rem;
+  }
+.main-text {
+  margin: 0 auto;
+  position: relative;
+width: 100%;
+  display: block;
+  font-size: 1.25rem;
+ 
+}
+.title-cont {
+    filter: transparent;
+  background: black;
+  font-size: 1.62rem;
+    border-style: outset;
+    margin: 0 auto;
+    position: relative;
+    border-color: red;
+ text-align: center;
+  width: 100%;
+}
+
+}
+
