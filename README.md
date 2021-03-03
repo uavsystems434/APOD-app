@@ -17,7 +17,7 @@
     Utilizes NASA's APOD API in the React framework. Calls upon the APOD API using <code>fetch()</code> and displays the current information, as well as an archive of past media uploaded.
     <br />
     <br />
-    <a href="https://uavsystems434.github.io/APOD-app/">View Demo</a>
+    <a href="https://uavsystems434.github.io/APOD-app/#/">View Demo</a>
     ·
     <a href="https://uavsystems434.github.io/APOD-app/">Report Bug</a>
     ·
