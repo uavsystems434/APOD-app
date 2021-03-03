@@ -7,8 +7,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="./APOD.png" alt="Logo" width="600" height="300" style="border-style: solid; border-width: .3em; border-color: red;">
+  <a href="https://uavsystems434.github.io/APOD-app/">
+    <img src="./APOD.webp" alt="" width="600" height="300" style="border-style: solid; border-width: .3em; border-color: red;">
   </a>
 
   <h3 align="center">NASA APOD Application</h3>
@@ -129,7 +129,7 @@ Distributed under [the MIT License](https://mit-license.org/).
 
 Justin Lawhorne - [justin.lawhorne7@gmail.com](https://gmail.com) - email
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://uavsystems434.github.io/APOD-app/](https://uavsystems434.github.io/APOD-app/)
 
 
 
