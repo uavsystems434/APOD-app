@@ -40,7 +40,7 @@ let [photoData, setPhotoData] = useState(null);
         ) : (
             <iframe
                 title="space-video"
-                src={photoData.hdurl}
+                src={photoData.url}
                 frameBorder="0"
                 gesture="media"
                 allow="encrypted-media"
