@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/APOD-app/static/css/main.8c18c402.chunk.css",
-    "main.js": "/APOD-app/static/js/main.a5e093d7.chunk.js",
-    "main.js.map": "/APOD-app/static/js/main.a5e093d7.chunk.js.map",
+    "main.css": "/APOD-app/static/css/main.607393b4.chunk.css",
+    "main.js": "/APOD-app/static/js/main.1d042ba1.chunk.js",
+    "main.js.map": "/APOD-app/static/js/main.1d042ba1.chunk.js.map",
     "runtime-main.js": "/APOD-app/static/js/runtime-main.39ed2963.js",
     "runtime-main.js.map": "/APOD-app/static/js/runtime-main.39ed2963.js.map",
     "static/js/2.1985653c.chunk.js": "/APOD-app/static/js/2.1985653c.chunk.js",
     "static/js/2.1985653c.chunk.js.map": "/APOD-app/static/js/2.1985653c.chunk.js.map",
     "index.html": "/APOD-app/index.html",
-    "static/css/main.8c18c402.chunk.css.map": "/APOD-app/static/css/main.8c18c402.chunk.css.map",
+    "static/css/main.607393b4.chunk.css.map": "/APOD-app/static/css/main.607393b4.chunk.css.map",
     "static/js/2.1985653c.chunk.js.LICENSE.txt": "/APOD-app/static/js/2.1985653c.chunk.js.LICENSE.txt",
     "static/media/App.css": "/APOD-app/static/media/background.160649b8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.39ed2963.js",
     "static/js/2.1985653c.chunk.js",
-    "static/css/main.8c18c402.chunk.css",
-    "static/js/main.a5e093d7.chunk.js"
+    "static/css/main.607393b4.chunk.css",
+    "static/js/main.1d042ba1.chunk.js"
   ]
 }
